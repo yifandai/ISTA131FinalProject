@@ -1,0 +1,4 @@
+https://docs.google.com/spreadsheets/d/1t4wJXlT2-P7djUjlK2FziedSrCsxtjTFHRD4mkqfvfo/gviz/tq?tqx=out:csv
+
+The data is from the 2018 Chicago DIVVY bikeshare data, including bike id, station id, player genders and more. I plan to analyze them and hope
+to find some connections between riders, bikes and the travling distance. 
