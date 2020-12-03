@@ -29,6 +29,9 @@ rider_data_melt_2 = pd.melt(rider_data_clean,id_vars='age')
 rider_data_melt_2 = rider_data_melt_2[rider_data_melt_2['variable'] == 'usertype']
 print(rider_data_melt_2)
 print(rider_data_melt_2.value_counts())
-print(rider_data_melt_2.value_counts().plot.hist)
-
+rider_data_clean['age'].value_counts().plot(kind='bar', figsize=(8, 6))
+plt.xlabel("Age", labelpad=14)
+plt.ylabel("Count", labelpad=14)
+plt.title("Count of ages", y=1.02)
+plt.show()
 

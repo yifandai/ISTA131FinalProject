@@ -33,4 +33,5 @@ print(rider_data_melt_2.value_counts().plot.hist)
 
 # look at the relationship between age & distance_miles #
 sns.lmplot(x = 'age', y = 'distance_miles', data = rider_data_clean, fit_reg = True, hue='gender', palette="muted")
+plt.title("Relationship between user's gender, age and distance_miles")
 plt.show()

@@ -25,5 +25,7 @@ rider_data_melt = pd.melt(rider_data_clean,id_vars='gender')
 rider_data_melt = rider_data_melt[rider_data_melt['variable'] == 'usertype']
 print(rider_data_melt)
 print(rider_data_melt.value_counts())
-print(rider_data_melt.value_counts().plot.hist)
-
+rider_data_melt.value_counts().plot(kind='bar')
+plt.ylabel("Count", labelpad=14)
+plt.title("Count of genders and usertype")
+plt.show()
